@@ -1,9 +1,9 @@
-# 🚴 Prédiction de la Disponibilité des Vélos en Libre-Service (Paris)
+# Prédiction de la Disponibilité des Vélos en Libre-Service (Paris)
 
-## 📌 Description du Projet
+## Description du Projet
 Ce projet de Data Science vise à prédire le taux de remplissage (`filling_rate`) des stations de vélos en libre-service à Paris. En utilisant des données géospatiales et temporelles, l'objectif est d'anticiper la disponibilité des vélos pour optimiser l'expérience utilisateur et la gestion de la flotte.
 
-## 🗂️ Structure du Notebook
+## Structure du Notebook
 Le projet suit un pipeline Data Science complet, documenté étape par étape :
 
 ### 1. Contexte et Objectif
@@ -25,13 +25,13 @@ L'entraînement des modèles a été divisé en deux approches distinctes pour c
   *Modèle gagnant : LightGBM optimisé par Cross-Validation (R² : ~68%).*
 - **Approche 2 : Avec la variable `Filling_rate_H_minus_1`** (Prédiction à très court terme).
 
-## 🚀 Améliorations en cours (Work in Progress)
+## Améliorations en cours (Work in Progress)
 Le projet est actuellement en phase d'évolution active. Voici les deux grands chantiers sur lesquels je travaille :
 
-- [ ] 🌦️ **Intégration de la Météo :** Récupération et fusion de l'historique météorologique de Paris (précipitations, température) pour aider les modèles à comprendre les baisses soudaines d'utilisation.
-- [ ] 🧠 **Deep Learning (PyTorch) :** Implémentation d'un réseau de neurones de type MLP (Multi-Layer Perceptron) avec le framework PyTorch pour challenger les performances de LightGBM.
+- [ ]  **Intégration de la Météo :** Récupération et fusion de l'historique météorologique de Paris (précipitations, température) pour aider les modèles à comprendre les baisses soudaines d'utilisation.
+- [ ]  **Deep Learning (PyTorch) :** Implémentation d'un réseau de neurones de type MLP (Multi-Layer Perceptron) avec le framework PyTorch pour challenger les performances de LightGBM.
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 - **Langage :** Python
 - **Manipulation de données :** Pandas, NumPy
 - **Visualisation :** Matplotlib, Seaborn
